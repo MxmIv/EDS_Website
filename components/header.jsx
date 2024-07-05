@@ -5,6 +5,8 @@ import githubLogo from 'public/images/github-mark-white.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
+    { linkText: 'Adult Classes', href: '/adult-classes' },
+
 ];
 
 export function Header() {
