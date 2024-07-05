@@ -13,10 +13,19 @@
     h1 {
         @apply mb-6 text-4xl font-bold tracking-tight md:text-5xl;
     }
+
+    body {
+        @apply bg-blue-500; /* Change this to your desired color */
+    }
+
+    .bg-grid-pattern {
+        background-image: url(''); /* Adjust the path */
+        background-size: cover; /* Adjust as necessary */
+    }
 }
 
 a {
-    @apply underline
+    @apply underline;
 }
 
 .markdown {

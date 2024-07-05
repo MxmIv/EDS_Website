@@ -30,38 +30,29 @@ const ctx = getNetlifyContext();
 export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
-            <section className="flex flex-col items-start gap-3 sm:gap-4">
-                <ContextAlert />
-                <h1 className="mb-0">Netlify Platform Starter - Next.js</h1>
-                <p className="text-lg">Get started with Next.js and Netlify in seconds.</p>
-                <Link
-                    href="https://docs.netlify.com/frameworks/next-js/overview/"
-                    className="btn btn-lg btn-primary sm:btn-wide"
-                >
-                    Read the Docs
-                </Link>
+            {/* Main Photo and Description */}
+            <section className="flex flex-col items-center gap-4">
+                <img src="/path/to/main-photo.jpg" alt="Dance School" className="w-full max-w-2xl" />
+                <p className="text-xl text-center">Welcome to our dance school! We offer a variety of dance classes for all ages and skill levels. Join us to learn, enjoy, and excel in dancing.</p>
             </section>
-            {!!ctx && (
-                <section className="flex flex-col gap-4">
-                    <Markdown content={contextExplainer} />
-                    <RuntimeContextCard />
-                </section>
-            )}
-            <section className="flex flex-col gap-4">
-                <Markdown content={preDynamicContentExplainer} />
-                <RandomQuote />
-                <Markdown content={postDynamicContentExplainer} />
+            {/* Classes Columns */}
+            <section className="flex flex-col gap-8 sm:gap-16">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    <div className="flex flex-col items-center">
+                        <h2 className="text-2xl font-bold">Adult Classes</h2>
+                        <p className="text-lg">Join our adult dance classes to learn new moves, stay fit, and have fun.</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <h2 className="text-2xl font-bold">Children Classes</h2>
+                        <p className="text-lg">Our children dance classes are perfect for young dancers to explore and enjoy dancing.</p>
+                    </div>
+                    <div className="flex flex-col items-center">
+                        <h2 className="text-2xl font-bold">Wedding Dance</h2>
+                        <p className="text-lg">Prepare for your big day with our special wedding dance classes.</p>
+                    </div>
+                </div>
             </section>
-            {/* !!cards?.length && <CardsGrid cards={cards} /> */}
         </main>
     );
 }
 
-function RuntimeContextCard() {
-    const title = `Netlify Context: running in ${ctx} mode.`;
-    if (ctx === 'dev') {
-        return <Card title={title} text="Next.js will rebuild any page you navigate to, including static pages." />;
-    } else {
-        return <Card title={title} text="This page was statically-generated at build time." />;
-    }
-}
