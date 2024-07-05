@@ -38,21 +38,29 @@ export default function Page() {
             {/* Classes Columns */}
             <section className="flex flex-col gap-8 sm:gap-16">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    {/* Adult Classes */}
                     <div className="flex flex-col items-center">
-                        <h2 className="text-2xl font-bold">Adult Classes</h2>
+                        <img src="/path/to/adult-classes-photo.jpg" alt="Adult Classes" className="w-full max-w-xs" />
+                        <h2 className="text-2xl font-bold mt-4">Adult Classes</h2>
                         <p className="text-lg">Join our adult dance classes to learn new moves, stay fit, and have fun.</p>
+                        <Link href="/adult-classes" className="btn btn-primary mt-4">Read More</Link>
                     </div>
+                    {/* Children Classes */}
                     <div className="flex flex-col items-center">
-                        <h2 className="text-2xl font-bold">Children Classes</h2>
+                        <img src="/path/to/children-classes-photo.jpg" alt="Children Classes" className="w-full max-w-xs" />
+                        <h2 className="text-2xl font-bold mt-4">Children Classes</h2>
                         <p className="text-lg">Our children dance classes are perfect for young dancers to explore and enjoy dancing.</p>
+                        <Link href="/children-classes" className="btn btn-primary mt-4">Read More</Link>
                     </div>
+                    {/* Wedding Dance */}
                     <div className="flex flex-col items-center">
-                        <h2 className="text-2xl font-bold">Wedding Dance</h2>
+                        <img src="/path/to/wedding-dance-photo.jpg" alt="Wedding Dance" className="w-full max-w-xs" />
+                        <h2 className="text-2xl font-bold mt-4">Wedding Dance</h2>
                         <p className="text-lg">Prepare for your big day with our special wedding dance classes.</p>
+                        <Link href="/wedding-dance" className="btn btn-primary mt-4">Read More</Link>
                     </div>
                 </div>
             </section>
         </main>
     );
 }
-
