@@ -45,7 +45,7 @@ export function Header() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
                 </svg>
             </button>
-            <div className={`absolute top-full left-0 w-full bg-white text-black lg:relative lg:flex lg:bg-transparent lg:text-white lg:flex-row lg:items-center lg:gap-x-4 ${menuOpen ? 'block' : 'hidden'} lg:block`}>
+            <div className={`absolute top-full left-0 w-full bg-white text-black lg:static lg:w-auto lg:bg-transparent lg:text-white lg:flex lg:items-center lg:gap-x-4 ${menuOpen ? 'block' : 'hidden'} lg:block`}>
                 {!!navItems?.length && (
                     <ul className="flex flex-col lg:flex-row gap-x-4 gap-y-1 lg:gap-y-0 p-4 lg:p-0">
                         {navItems.map((item, index) => (
@@ -60,15 +60,6 @@ export function Header() {
                         ))}
                     </ul>
                 )}
-                <div className="flex-grow justify-end hidden lg:flex lg:mr-1">
-                    <Link
-                        href="https://github.com/netlify-templates/next-platform-starter"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Image src={edsLogo} alt="GitHub logo" className="w-7" />
-                    </Link>
-                </div>
             </div>
         </nav>
     );
