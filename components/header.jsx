@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import edinburghDanceSchoolLogo from 'public/edinburghDanceSchool.svg';
-import edsLogo from 'public/edsLogo.svg';
 
 const navItems = [
     { linkText: 'Home', href: '/' },
@@ -45,14 +44,14 @@ export function Header() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
                 </svg>
             </button>
-            <div className={`absolute top-full left-0 w-full bg-white text-black lg:static lg:w-auto lg:bg-transparent lg:text-white lg:flex lg:items-center lg:gap-x-4 ${menuOpen ? 'block' : 'hidden'} lg:block`}>
+            <div className={`absolute top-full left-0 w-full bg-white text-black lg:static lg:w-auto lg:bg-transparent lg:flex lg:items-center lg:gap-x-4 ${menuOpen ? 'block' : 'hidden'} lg:block`}>
                 {!!navItems?.length && (
                     <ul className="flex flex-col lg:flex-row gap-x-4 gap-y-1 lg:gap-y-0 p-4 lg:p-0">
                         {navItems.map((item, index) => (
                             <li key={index} onClick={handleMenuItemClick}>
                                 <Link
                                     href={item.href}
-                                    className="block px-4 py-2 transition hover:bg-gray-200 lg:hover:bg-transparent lg:px-3 lg:py-2"
+                                    className="block px-4 py-2 text-black transition hover:bg-gray-200 lg:hover:bg-transparent lg:px-3 lg:py-2"
                                 >
                                     {item.linkText}
                                 </Link>
