@@ -20,6 +20,12 @@ export function Header() {
         setMenuOpen(!menuOpen);
     };
 
+    const handleMenuItemClick = () => {
+        if (menuOpen) {
+            setMenuOpen(false);
+        }
+    };
+
     return (
         <nav className="relative flex flex-wrap items-center justify-between gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
             <Link href="/">
@@ -43,7 +49,7 @@ export function Header() {
                 {!!navItems?.length && (
                     <ul className="flex flex-col lg:flex-row gap-x-4 gap-y-1 lg:gap-y-0 p-4 lg:p-0">
                         {navItems.map((item, index) => (
-                            <li key={index}>
+                            <li key={index} onClick={handleMenuItemClick}>
                                 <Link
                                     href={item.href}
                                     className="block px-4 py-2 transition hover:bg-gray-200 lg:hover:bg-transparent lg:px-3 lg:py-2"
