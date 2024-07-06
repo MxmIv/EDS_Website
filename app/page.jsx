@@ -1,15 +1,5 @@
 import Link from 'next/link';
 
-// Removed unnecessary imports
-// import { Card } from 'components/card';
-// import { RandomQuote } from 'components/random-quote';
-// import { Markdown } from 'components/markdown';
-// import { ContextAlert } from 'components/context-alert';
-// import { getNetlifyContext } from 'utils';
-
-// Removed unused context variable and explainer content
-// const ctx = getNetlifyContext();
-
 export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
@@ -37,7 +27,7 @@ export default function Page() {
                     </div>
                     {/* Wedding Dance */}
                     <div className="flex flex-col items-center">
-                        <img src="/path/to/wedding-dance-photo.jpg" alt="Wedding Dance" className="w-full max-w-xs" />
+                        <img src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" className="w-full max-w-xs" />
                         <h2 className="text-2xl font-bold mt-4">Wedding Dance</h2>
                         <p className="text-lg">Prepare for your big day with our special wedding dance classes.</p>
                         <Link href="/wedding-dance" className="btn btn-primary mt-4">Read More</Link>

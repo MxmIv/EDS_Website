@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import githubLogo from 'public/images/github-mark-white.svg';
+import edinburghDanceSchoolLogo from 'public/edinburghDanceSchool.svg'
 import edsLogo from 'public/edsLogo.svg';
 
 const navItems = [
@@ -14,7 +14,7 @@ export function Header() {
     return (
         <nav className="flex flex-wrap items-center justify-between gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
             <Link href="/">
-                <Image src={edsLogo} alt="Edinburgh Dance School Logo" className="w-56 h-auto" />
+                <Image src={edinburghDanceSchoolLogo} alt="Edinburgh Dance School Logo" className="w-56 h-auto" />
             </Link>
             {!!navItems?.length && (
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
@@ -36,7 +36,7 @@ export function Header() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <Image src={githubLogo} alt="GitHub logo" className="w-7" />
+                    <Image src={edsLogo} alt="GitHub logo" className="w-7" />
                 </Link>
             </div>
         </nav>
