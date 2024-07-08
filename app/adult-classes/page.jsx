@@ -32,7 +32,7 @@ export default function Page() {
                             </p>
                         </div>
                         <div className="md:col-span-2 flex items-center justify-center">
-                            <div className="w-48 h-48 relative">
+                            <div className="relative w-full max-w-sm max-h-sm" style={{ aspectRatio: '1/1' }}>
                                 <img
                                     src="/images/adultClasses.jpg"
                                     alt="Ballroom and Latin Dance"
