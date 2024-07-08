@@ -15,14 +15,12 @@ const pricing = '£10 per class';
 export default function Page() {
     return (
         <div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-center my-8">Adult Classes</h1>
-
-            {/* First section: Discover the Joy of Dance and Photo */}
-            <div className="w-full bg-white">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="w-full bg-white px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
+                <h1 className="text-3xl sm:text-4xl font-bold text-left my-4">Adult Classes</h1>
+                <div className="max-w-7xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
-                            <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Discover the Joy of Dance</h2>
+                            <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Discover the Joy of Dance</h2>
                             <p className="mb-4">
                                 Join our vibrant and engaging Ballroom and Latin dance classes designed for adults of all skill levels! Whether you're a complete beginner or looking to refine your moves, our professional instructors will guide you through a variety of dance styles, including:
                             </p>
@@ -44,10 +42,9 @@ export default function Page() {
                 </div>
             </div>
 
-            {/* Second section: Gray box with Pricing and Terms */}
-            <div className="w-full bg-gray-100 py-8">
+            <div className="w-screen bg-gray-100 py-4">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <h3 className="text-xl sm:text-2xl font-semibold mb-2">Term Dates</h3>
                             <ul className="list-disc list-inside mb-4">
