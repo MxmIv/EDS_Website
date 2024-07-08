@@ -16,7 +16,7 @@ export default function Page() {
     return (
         <div>
             <div className="w-full bg-white px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
-                <h1 className="text-3xl sm:text-4xl font-bold text-left my-4 px-4">Adult Classes</h1>
+                <h1 className="text-3xl sm:text-4xl font-bold text-left px-4">Adult Classes</h1>
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
                         <div className="md:col-span-3 flex flex-col justify-center px-4">
