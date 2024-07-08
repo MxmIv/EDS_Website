@@ -33,7 +33,9 @@ export default async function Page() {
                         />
                     </div>
                 </div>
-                <div className="bg-gray-100 p-4 rounded-lg shadow-md grid grid-cols-1 md:grid-cols-2 gap-8">
+            </div>
+            <div className="w-full bg-gray-100 p-4">
+                <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h3 className="text-2xl font-semibold mb-2">Term Dates</h3>
                         <ul className="list-disc list-inside mb-4">
