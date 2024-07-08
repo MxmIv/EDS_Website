@@ -26,9 +26,11 @@ export function Header() {
     };
 
     return (
-        <nav className="relative flex flex-wrap items-center justify-between gap-4 pt-6 pb-12 sm:pt-12 md:pb-12">
-            <Link href="/">
-                <Image src={edinburghDanceSchoolLogo} alt="Edinburgh Dance School Logo" className="w-56 h-auto" />
+        <nav className="relative flex flex-wrap items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 pt-6 pb-12 sm:pt-12 md:pb-12">
+            <Link href="/" legacyBehavior>
+                <a>
+                    <Image src={edinburghDanceSchoolLogo} alt="Edinburgh Dance School Logo" className="w-56 h-auto" />
+                </a>
             </Link>
             <button
                 className="block lg:hidden p-2 rounded focus:outline-none focus:ring z-20"
@@ -49,11 +51,10 @@ export function Header() {
                     <ul className="flex flex-col lg:flex-row gap-x-4 gap-y-1 lg:gap-y-0 p-4 lg:p-0">
                         {navItems.map((item, index) => (
                             <li key={index} onClick={handleMenuItemClick}>
-                                <Link
-                                    href={item.href}
-                                    className="block px-4 py-2 text-black transition hover:bg-gray-200 lg:hover:bg-transparent lg:px-3 lg:py-2"
-                                >
-                                    {item.linkText}
+                                <Link href={item.href} legacyBehavior>
+                                    <a className="block px-4 py-2 text-black transition hover:bg-gray-200 lg:hover:bg-transparent lg:px-3 lg:py-2">
+                                        {item.linkText}
+                                    </a>
                                 </Link>
                             </li>
                         ))}
