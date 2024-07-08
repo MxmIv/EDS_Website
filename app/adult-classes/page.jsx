@@ -34,7 +34,7 @@ export default async function Page() {
                     </div>
                 </div>
             </div>
-            <div className="w-full bg-gray-100 p-4">
+            <div className="relative w-screen left-1/2 right-1/2 sm:ml-[-50vw] sm:mr-[-50vw] ml-[-10vw] mr-[-10vw] bg-gray-100 p-4">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
                         <h3 className="text-2xl font-semibold mb-2">Term Dates</h3>
