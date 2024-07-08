@@ -32,7 +32,7 @@ export default function Page() {
                             </p>
                         </div>
                         <div className="md:col-span-2 flex items-center justify-center">
-                            <div className="relative w-full max-w-sm max-h-sm" style={{ aspectRatio: '1/1' }}>
+                            <div className="relative w-full max-w-sm" style={{ aspectRatio: '1/1' }}>
                                 <img
                                     src="/images/adultClasses.jpg"
                                     alt="Ballroom and Latin Dance"
@@ -44,7 +44,7 @@ export default function Page() {
                 </div>
             </div>
 
-            <div className="w-screen bg-gray-100 py-8">
+            <div className="w-full bg-gray-100 py-8">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div>
