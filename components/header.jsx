@@ -26,7 +26,7 @@ export function Header() {
     };
 
     return (
-        <nav className="relative flex flex-wrap items-center justify-between gap-4 pt-6 pb-12 sm:pt-12 md:pb-24">
+        <nav className="relative flex flex-wrap items-center justify-between gap-4 pt-6 pb-12 sm:pt-12 md:pb-12">
             <Link href="/">
                 <Image src={edinburghDanceSchoolLogo} alt="Edinburgh Dance School Logo" className="w-56 h-auto" />
             </Link>
