@@ -9,6 +9,8 @@ const termDates = [
     { term: 'Winter', dates: 'January 5th - March 20th' },
     { term: 'Spring', dates: 'April 1st - May 31st' }
 ];
+const classTime = 'Thursday: 8.15pm - 9.15pm';
+const pricing = '£10 per class';
 
 export default function Page() {
     return (
@@ -39,19 +41,22 @@ export default function Page() {
             </div>
 
             {/* Second section: Gray box with Pricing and Terms */}
-            <div className="bg-gray-100 -mx-4 sm:-mx-6 lg:-mx-8 p-4 sm:p-6 lg:p-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 className="text-xl sm:text-2xl font-semibold mb-2">Term Dates</h3>
-                        <ul className="list-disc list-inside mb-4">
-                            {termDates.map(({term, dates}) => (
-                                <li key={term}>{term} Term: {dates}</li>
-                            ))}
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 className="text-xl sm:text-2xl font-semibold mb-2">Pricing</h3>
-                        <p className="mb-4">Price per class: £10</p>
+            <div className="w-full bg-gray-100 py-8">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 className="text-xl sm:text-2xl font-semibold mb-2">Term Dates</h3>
+                            <ul className="list-disc list-inside mb-4">
+                                {termDates.map(({ term, dates }) => (
+                                    <li key={term}>{term} Term: {dates}</li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 className="text-xl sm:text-2xl font-semibold mb-2">Class Information</h3>
+                            <p className="mb-2">Price: {pricing}</p>
+                            <p className="mb-2">Time: {classTime}</p>
+                        </div>
                     </div>
                 </div>
             </div>
