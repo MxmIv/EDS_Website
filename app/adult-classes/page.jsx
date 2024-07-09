@@ -22,7 +22,7 @@ export default function Page() {
                         <div className="md:col-span-3 flex flex-col justify-center px-4">
                             <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Discover the Joy of Dance</h2>
                             <p className="mb-4">
-                                Join our vibrant and engaging Ballroom and Latin dance classes designed for adults of all skill levels! Whether you're a complete beginner or looking to refine your moves, our professional instructors will guide you through a variety of dance styles, including:
+                                Join our vibrant and engaging Ballroom and Latin dance classes designed for adults of all skill levels! Whether you are a complete beginner or looking to refine your moves, our professional instructors will guide you through a variety of dance styles, including:
                             </p>
                             <ul className="list-disc list-inside mb-4">
                                 {danceStyles.map(style => <li key={style}>{style}</li>)}
