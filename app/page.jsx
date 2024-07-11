@@ -5,48 +5,50 @@ import Image from 'next/image';
 
 export default function Page() {
     return (
-        <main className="flex flex-col gap-8 sm:gap-16 px-4 sm:px-6 lg:px-8">
-            <style jsx>{`
-                .image-button {
-                    display: inline-block;
-                    transition: transform 0.3s ease, box-shadow 0.3s ease;
-                }
-                .image-button:hover {
-                    transform: scale(1.05);
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-                }
-            `}</style>
-            <section className="flex flex-col items-center gap-4">
+        <main className="flex flex-col gap-0">
+            <section className="relative w-full h-96">
+                <Image
+                    src="/images/mainpage_hall.jpg"
+                    alt="Main Cover"
+                    fill
+                    style={{ objectFit: 'cover' }}
+                    className="w-full h-full"
+                />
+                <div className="absolute inset-0 flex justify-center items-center">
+                    <h1 className="bg-white text-3xl sm:text-5xl font-bold p-4">Edinburgh Dance School</h1>
+                </div>
+            </section>
+            <section className="flex flex-col items-center gap-4 bg-gray-200 py-8 w-full">
                 <p className="text-lg sm:text-xl text-center">Welcome to our dance school! We offer a variety of dance classes for all ages and skill levels. Join us to learn, enjoy, and excel in dancing.</p>
             </section>
-            <section className="flex flex-col gap-8 sm:gap-16">
+            <section className="flex flex-col gap-8 sm:gap-16 px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
                     <div className="flex flex-col items-center">
                         <Link href="/adult-classes" legacyBehavior>
-                            <a className="image-button">
+                            <a className="image-button flex flex-col items-center no-underline">
                                 <Image src="/images/adultClasses.jpg" alt="Adult Classes" width={300} height={200} className="w-full max-w-xs" />
+                                <h2 className="class-name text-2xl font-bold mt-4">Adult Classes</h2>
                             </a>
                         </Link>
-                        <h2 className="text-2xl font-bold mt-4">Adult Classes</h2>
-                        <p className="text-base sm:text-lg">Join our adult dance classes to learn new moves, stay fit, and have fun.</p>
+                        <p className="text-base sm:text-lg mt-4 text-center">Join our adult dance classes to learn new moves, stay fit, and have fun.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/children-classes" legacyBehavior>
-                            <a className="image-button">
+                            <a className="image-button flex flex-col items-center no-underline">
                                 <Image src="/images/childrenclasses.jpg" alt="Children Classes" width={300} height={200} className="w-full max-w-xs" />
+                                <h2 className="class-name text-2xl font-bold mt-4">Children Classes</h2>
                             </a>
                         </Link>
-                        <h2 className="text-2xl font-bold mt-4">Children Classes</h2>
-                        <p className="text-base sm:text-lg">Our children's dance classes are perfect for young dancers to explore and enjoy dancing.</p>
+                        <p className="text-base sm:text-lg mt-4 text-center">Our childrens dance classes are perfect for young dancers to explore and enjoy dancing.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/wedding-dance" legacyBehavior>
-                            <a className="image-button">
+                            <a className="image-button flex flex-col items-center no-underline">
                                 <Image src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" width={300} height={200} className="w-full max-w-xs" />
+                                <h2 className="class-name text-2xl font-bold mt-4">Wedding Dance</h2>
                             </a>
                         </Link>
-                        <h2 className="text-2xl font-bold mt-4">Wedding Dance</h2>
-                        <p className="text-base sm:text-lg">Prepare for your big day with our special wedding dance classes.</p>
+                        <p className="text-base sm:text-lg mt-4 text-center">Prepare for your big day with our special wedding dance classes.</p>
                     </div>
                 </div>
             </section>

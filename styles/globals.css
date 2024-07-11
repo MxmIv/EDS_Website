@@ -43,3 +43,42 @@ a {
 .btn:disabled {
     @apply text-neutral-400 bg-neutral-700;
 }
+
+.image-button {
+     position: relative;
+     display: inline-block;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+.image-button:hover {
+         transform: scale(1.05);
+         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image-button .overlay {
+         position: absolute;
+         bottom: 10px;
+         left: 50%;
+         transform: translateX(-50%);
+         background: rgba(0, 0, 0, 0.5);
+         color: white;
+         padding: 5px 10px;
+         border-radius: 5px;
+         font-size: 16px;
+         opacity: 0;
+         transition: opacity 0.3s ease;
+}
+.image-button:hover .overlay {
+         opacity: 1;
+}
+
+.image-button:hover .class-name {
+    color: #808080;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+.image-button img {
+    transition: background 0.3s ease;
+}
+.image-button:hover img {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+
