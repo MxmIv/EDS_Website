@@ -2,8 +2,9 @@ import Link from 'next/link';
 
 export function Footer() {
     return (
-        <footer className="pt-16 pb-12 sm:pt-24 sm:pb-16 text-center">
+        <footer className="bg-gray-200 text-black pt-8 pb-12 sm:pt-3 sm:pb-10 text-center">
             <p className="text-sm mb-4">
+                <Link href="/privacy-policy" className="underline">Privacy Policy</Link>
             </p>
             <p className="text-sm">
                 © 2024 Edinburgh Dance School. All rights reserved.
