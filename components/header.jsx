@@ -52,7 +52,7 @@ export function Header() {
                         {navItems.map((item, index) => (
                             <li key={index} onClick={handleMenuItemClick}>
                                 <Link href={item.href} legacyBehavior>
-                                    <a className="block px-4 py-2 text-white transition bg-gradient-to-r from-[#20A6DF] to-[#1D509F] rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 lg:px-3 lg:py-2 no-underline">
+                                    <a className="relative block px-4 py-2 text-black transition hover:text-gray-700 lg:px-3 lg:py-2 no-underline after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:bg-gradient-to-r from-[#20A6DF] via-[#1D509F] to-[#25A6DF] after:opacity-0 after:transition-opacity after:duration-300 hover:after:opacity-100">
                                         {item.linkText}
                                     </a>
                                 </Link>
