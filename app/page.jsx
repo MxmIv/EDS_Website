@@ -59,7 +59,6 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            <div className="py-6"></div>
         </main>
     );
 }
