@@ -14,13 +14,12 @@ export default function Page() {
                     style={{ objectFit: 'cover' }}
                     className="w-full h-full"
                 />
-                <div className="absolute inset-0 flex justify-center items-center">
-                    <h1 className="bg-white text-3xl sm:text-5xl font-bold p-4">Edinburgh Dance School</h1>
+                <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 text-center px-4">
+                    <h2 className="text-4xl sm:text-5xl font-bold text-white drop-shadow-md">Welcome to our dance school!</h2>
+                    <p className="mt-4 text-lg sm:text-xl text-white drop-shadow-md">We offer a variety of dance classes for all ages and skill levels. Join us to learn, enjoy, and excel in dancing.</p>
                 </div>
             </section>
-            <section className="flex flex-col items-center gap-4 bg-gray-200 py-8 w-full">
-                <p className="text-lg sm:text-xl text-center">Welcome to our dance school! We offer a variety of dance classes for all ages and skill levels. Join us to learn, enjoy, and excel in dancing.</p>
-            </section>
+            <div className="py-8"></div>
             <section className="flex flex-col gap-8 sm:gap-16 px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
                     <div className="flex flex-col items-center">
