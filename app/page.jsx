@@ -15,8 +15,10 @@ export default function Page() {
                     className="w-full h-full"
                 />
                 <div className="absolute inset-0 flex flex-col justify-center items-center gap-4 text-center px-4">
-                    <h2 className="text-4xl sm:text-5xl font-bold text-white drop-shadow-md">Welcome to our dance school!</h2>
-                    <p className="mt-4 text-lg sm:text-xl text-white drop-shadow-md">We offer a variety of dance classes for all ages and skill levels. Join us to learn, enjoy, and excel in dancing.</p>
+                    <h2 className="text-4xl sm:text-5xl font-bold text-white drop-shadow-md">Welcome to our dance
+                        school!</h2>
+                    <p className="mt-4 text-lg sm:text-xl text-white drop-shadow-md">We offer a variety of dance classes
+                        for all ages and skill levels. Join us to learn, enjoy, and excel in dancing.</p>
                 </div>
             </section>
             <div className="py-8"></div>
@@ -25,32 +27,39 @@ export default function Page() {
                     <div className="flex flex-col items-center">
                         <Link href="/adult-classes" legacyBehavior>
                             <a className="image-button flex flex-col items-center no-underline">
-                                <Image src="/images/adultClasses.jpg" alt="Adult Classes" width={300} height={200} className="w-full max-w-xs" />
+                                <Image src="/images/adultClasses.jpg" alt="Adult Classes" width={300} height={200}
+                                       className="w-full max-w-xs" />
                                 <h2 className="class-name text-2xl font-bold mt-4">Adult Classes</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Join our adult dance classes to learn new moves, stay fit, and have fun.</p>
+                        <p className="text-base sm:text-lg mt-4 text-center">Join our adult dance classes to learn new
+                            moves, stay fit, and have fun.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/children-classes" legacyBehavior>
                             <a className="image-button flex flex-col items-center no-underline">
-                                <Image src="/images/childrenclasses.jpg" alt="Children Classes" width={300} height={200} className="w-full max-w-xs" />
+                                <Image src="/images/childrenclasses.jpg" alt="Children Classes" width={300} height={200}
+                                       className="w-full max-w-xs" />
                                 <h2 className="class-name text-2xl font-bold mt-4">Children Classes</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Our childrens dance classes are perfect for young dancers to explore and enjoy dancing.</p>
+                        <p className="text-base sm:text-lg mt-4 text-center">Our childrens dance classes are perfect for
+                            young dancers to explore and enjoy dancing.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/wedding-dance" legacyBehavior>
                             <a className="image-button flex flex-col items-center no-underline">
-                                <Image src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" width={300} height={200} className="w-full max-w-xs" />
+                                <Image src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" width={300}
+                                       height={200} className="w-full max-w-xs" />
                                 <h2 className="class-name text-2xl font-bold mt-4">Wedding Dance</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Prepare for your big day with our special wedding dance classes.</p>
+                        <p className="text-base sm:text-lg mt-4 text-center">Prepare for your big day with our special
+                            wedding dance classes.</p>
                     </div>
                 </div>
             </section>
+            <div className="py-6"></div>
         </main>
     );
 }
