@@ -7,7 +7,7 @@ export default async function Page() {
 
     return (
         <>
-            <h1>Adult Classes</h1>
+            <h1>Privacy Policy </h1>
         </>
     );
 }
