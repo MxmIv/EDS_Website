@@ -26,7 +26,7 @@ export function Header() {
     };
 
     return (
-        <nav className="relative flex flex-wrap items-center justify-between gap-4 px-4 sm:px-4 lg:px-6 pt-4 pb-4 sm:pt-8 md:pb-4">
+        <nav className="relative flex flex-wrap items-center justify-between gap-4 px-4 sm:px-4 lg:px-6 pt-4 pb-4 sm:pt-8 md:pb-4 bg-white z-10">
             <Link href="/" legacyBehavior>
                 <a>
                     <Image src={edinburghDanceSchoolLogo} alt="Edinburgh Dance School Logo" className="w-48 h-auto" />
