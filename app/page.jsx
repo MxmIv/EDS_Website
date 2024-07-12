@@ -32,8 +32,6 @@ export default function Page() {
                                 <h2 className="class-name text-2xl font-bold mt-4">Adult Classes</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Join our adult dance classes to learn new
-                            moves, stay fit, and have fun.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/children-classes" legacyBehavior>
@@ -43,8 +41,6 @@ export default function Page() {
                                 <h2 className="class-name text-2xl font-bold mt-4">Children Classes</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Our children`&apos;s dance classes are perfect for
-                            young dancers to explore and enjoy dancing.</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/wedding-dance" legacyBehavior>
@@ -54,8 +50,6 @@ export default function Page() {
                                 <h2 className="class-name text-2xl font-bold mt-4">First Wedding Dance</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Prepare for your big day with our special
-                            wedding dance classes.</p>
                     </div>
                 </div>
             </section>
