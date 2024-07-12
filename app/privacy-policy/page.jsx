@@ -31,7 +31,7 @@ export default function Page() {
                         personal data, for example when collecting data via an online or paper form.
                     </p>
                     <p className="mt-4">
-                        This Privacy Notice also applies in addition to EDS's relevant terms and conditions and policies,
+                        This Privacy Notice also applies in addition to EDS&#39;s relevant terms and conditions and policies,
                         including:
                     </p>
                     <ul className="list-disc list-inside mb-4 mt-4">
@@ -83,11 +83,11 @@ export default function Page() {
                     </p>
                     <ul className="list-disc list-inside mb-4 mt-4">
                         <li>For the purposes of pupil enrollment(and to confirm the identity of prospective pupils and their parents);</li>
-                        <li>To provide education services, including dance training, music and drama education and extra-curricular activities to pupils, and monitoring pupils' progress;</li>
+                        <li>To provide education services, including dance training, music and drama education and extra-curricular activities to pupils, and monitoring pupils&#39; progress;</li>
                         <li>Maintaining relationships with the school community, including direct marketing or fundraising activity;</li>
                         <li>For the purposes of management planning and forecasting, research and statistical analysis, including that imposed or provided for by law (such as diversity or gender pay gap analysis and taxation records);</li>
                         <li>To enable relevant authorities to monitor the performance of EDS and to intervene or assist with incidents as appropriate;</li>
-                        <li>To safeguard pupils' welfare and provide appropriate pastoral care;</li>
+                        <li>To safeguard pupils&#39; welfare and provide appropriate pastoral care;</li>
                         <li>To monitor (as appropriate) use of EDS IT and communications systems in accordance with the Acceptable Use (Computers) Policy;</li>
                         <li>To make use of photographic and video recorded images of pupils internally in school publications, and on the Schools intranets in accordance with the policies on taking, storing and using images of children;</li>
                         <li>To make use of photographic and video recorded images of pupils externally, online and in print, for example in newspapers or magazines, on the EDS website and official social media channels for marketing purposes or to celebrate the achievements of pupils and in accordance with EDS policies on taking, storing and using images of children and use of social media;</li>
@@ -103,7 +103,7 @@ export default function Page() {
                         If you have any specific queries about how this policy is applied or wish to request that personal data which you no longer believe to be relevant is considered for erasure, please contact the DC at <a href="mailto:schoolsecretary@edinburghdanceschool.co.uk">schoolsecretary@edinburghdanceschool.co.uk</a>. However, please bear in mind that EDS may have lawful and necessary reasons to hold on to some personal data even following such a request.
                     </p>
                     <p className="mt-4">
-                        A limited and reasonable amount of information will be kept for archiving purposes, for example; even where you have requested we no longer keep in touch with you, we will need to keep a record of the fact in order to fulfil your wishes (called a "suppression record").
+                        A limited and reasonable amount of information will be kept for archiving purposes, for example; even where you have requested we no longer keep in touch with you, we will need to keep a record of the fact in order to fulfil your wishes (called a &quot;suppression record`&quot;).
                     </p>
 
                     <h2 className="mt-8 font-bold">Special Category Personal Data</h2>
@@ -111,7 +111,7 @@ export default function Page() {
                         In addition, EDS may need to process special category personal data (concerning health, ethnicity, religion, or sexual life) or criminal records information (such as when carrying out Disclosure Scotland checks) in accordance with rights or duties imposed on it by law, including as regards safeguarding and employment, or from time to time by explicit consent where required. These reasons will include:
                     </p>
                     <ul className="list-disc list-inside mb-4 mt-4">
-                        <li>To safeguard pupils' welfare and provide appropriate pastoral (and where necessary, medical) care, and to take appropriate action in the event of an emergency, incident or accident, including by disclosing details of an individual's medical condition or other relevant information where it is in the individual's interests to do so: for example, for medical advice, for social protection, safeguarding and cooperation with police or social services, for insurance purposes or to caterers or organisers of EDS trips who need to be made aware of dietary or medical needs;</li>
+                        <li>To safeguard pupils&#39; welfare and provide appropriate pastoral (and where necessary, medical) care, and to take appropriate action in the event of an emergency, incident or accident, including by disclosing details of an individual&#39;s medical condition or other relevant information where it is in the individual&#39;s interests to do so: for example, for medical advice, for social protection, safeguarding and cooperation with police or social services, for insurance purposes or to caterers or organisers of EDS trips who need to be made aware of dietary or medical needs;</li>
                         <li>To provide educational services in the context of any special educational needs of a pupil;</li>
                         <li>In connection with employment of their staff, for example, Disclosure Scotland checks;</li>
                         <li>As part of any school or external complaints, disciplinary or investigation process that involves such data, for example, if there are SEN, health or safeguarding elements; or</li>
@@ -179,7 +179,7 @@ export default function Page() {
                         EDS are also not required to disclose any pupil examination, medal test or grading information, nor share any confidential reference given by EDS themselves for the purposes of training or employment of any individual.
                     </p>
                     <p className="mt-4">
-                        However, we will sometimes have compelling reasons to refuse specific requests to amend, delete or stop processing your (or your child's) personal data: for example, a legal requirement, or where it falls within a legitimate interest identified in this Privacy Notice. All such requests will be considered on their own merits.
+                        However, we will sometimes have compelling reasons to refuse specific requests to amend, delete or stop processing your (or your child&#39;s) personal data: for example, a legal requirement, or where it falls within a legitimate interest identified in this Privacy Notice. All such requests will be considered on their own merits.
                     </p>
 
                     <h3 className="mt-4 font-bold">Pupil Requests</h3>
@@ -187,7 +187,7 @@ export default function Page() {
                         Pupils can make subject access requests for their own personal data, provided that, in the reasonable opinion of EDS, they have sufficient maturity to understand the request they are making (see section ‘Whose Rights?’ below). A pupil of any age may ask a parent or other representative to make a subject access request on his/her behalf.
                     </p>
                     <p className="mt-4">
-                        Indeed, while a person with parental responsibility will generally be entitled to make a subject access request on behalf of younger pupils, the law still considers the information in question to be the child's: for older pupils, the parent making the request may need to evidence their child's authority for the specific request.
+                        Indeed, while a person with parental responsibility will generally be entitled to make a subject access request on behalf of younger pupils, the law still considers the information in question to be the child&#39;s: for older pupils, the parent making the request may need to evidence their child&#39;s authority for the specific request.
                     </p>
 
                     <h3 className="mt-4 font-bold">Parental requests</h3>
@@ -211,10 +211,10 @@ export default function Page() {
                         Rights under Data Protection Law belong to the individual to whom the data relates. However, EDS will often rely on parental authority or notice for the necessary ways they process personal data relating to pupils – for example, under the parent contract, or via a form. Parents and pupils should be aware that this is not necessarily the same as EDS relying on strict consent (see the section on Consent above).
                     </p>
                     <p className="mt-4">
-                        Where consent is required, it may in some cases be necessary or appropriate – given the nature of the processing in question, and the pupil's age and understanding – to seek the pupil's consent. Parents should be aware that in such situations they may not be consulted, depending on the interests of the child, the parents' rights at law or under their contract, and all the circumstances.
+                        Where consent is required, it may in some cases be necessary or appropriate – given the nature of the processing in question, and the pupil&#39;s age and understanding – to seek the pupil&#39;s consent. Parents should be aware that in such situations they may not be consulted, depending on the interests of the child, the parents&#39; rights at law or under their contract, and all the circumstances.
                     </p>
                     <p className="mt-4">
-                        In general, EDS will assume that pupils’ consent is not required for ordinary disclosure of their personal data to their parents, e.g. for the purposes of keeping parents informed about the pupil's activities, progress and behaviour, and in the interests of the pupil's welfare. That is unless, in the opinion of EDS, there is a good reason to do otherwise.
+                        In general, EDS will assume that pupils’ consent is not required for ordinary disclosure of their personal data to their parents, e.g. for the purposes of keeping parents informed about the pupil&#39;s activities, progress and behaviour, and in the interests of the pupil&#39;s welfare. That is unless, in the opinion of EDS, there is a good reason to do otherwise.
                     </p>
                     <p className="mt-4">
                         However, where a pupil seeks to raise concerns confidentially with a member of staff and expressly withholds their agreement to their personal data being disclosed to their parents, EDS may be under an obligation to maintain confidentiality unless, in EDS opinion, there is a good reason to do otherwise; for example, where EDS believe disclosure will be in the best interests of the pupil or other pupils, or if required by law.
