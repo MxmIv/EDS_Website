@@ -43,7 +43,7 @@ export default function Page() {
                                 <h2 className="class-name text-2xl font-bold mt-4">Children Classes</h2>
                             </a>
                         </Link>
-                        <p className="text-base sm:text-lg mt-4 text-center">Our childrens dance classes are perfect for
+                        <p className="text-base sm:text-lg mt-4 text-center">Our children`&apos;s dance classes are perfect for
                             young dancers to explore and enjoy dancing.</p>
                     </div>
                     <div className="flex flex-col items-center">
@@ -51,7 +51,7 @@ export default function Page() {
                             <a className="image-button flex flex-col items-center no-underline">
                                 <Image src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" width={300}
                                        height={200} className="w-full max-w-xs" />
-                                <h2 className="class-name text-2xl font-bold mt-4">Wedding Dance</h2>
+                                <h2 className="class-name text-2xl font-bold mt-4">First Wedding Dance</h2>
                             </a>
                         </Link>
                         <p className="text-base sm:text-lg mt-4 text-center">Prepare for your big day with our special
