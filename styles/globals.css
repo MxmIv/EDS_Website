@@ -24,6 +24,17 @@
     }
 }
 
+body {
+    @apply font-display;
+}
+
+.montserrat-custom {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 a {
     @apply underline;
 }
@@ -80,5 +91,13 @@ a {
 .image-button:hover img {
     background-color: rgba(128, 128, 128, 0.1);
 }
+
+.montserrat-custom {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 
 

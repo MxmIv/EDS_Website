@@ -12,7 +12,7 @@ module.exports = {
                 neutral: colors.neutral
             },
             fontFamily: {
-                sans: ['Inter', ...defaultTheme.fontFamily.sans]
+                display: ['Montserrat', ...defaultTheme.fontFamily.sans]
             }
         }
     },
