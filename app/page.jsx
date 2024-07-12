@@ -26,28 +26,34 @@ export default function Page() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
                     <div className="flex flex-col items-center">
                         <Link href="/adult-classes" legacyBehavior>
-                            <a className="image-button flex flex-col items-center no-underline">
+                            <a className="image-button flex flex-col items-center no-underline relative">
                                 <Image src="/images/adultClasses.jpg" alt="Adult Classes" width={300} height={200}
                                        className="w-full max-w-xs" />
-                                <h2 className="class-name text-2xl font-bold mt-4">Adult Classes</h2>
+                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full text-center">
+                                    <h2 className="text-2xl font-bold text-white drop-shadow-md">Adult Classes</h2>
+                                </div>
                             </a>
                         </Link>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/children-classes" legacyBehavior>
-                            <a className="image-button flex flex-col items-center no-underline">
+                            <a className="image-button flex flex-col items-center no-underline relative">
                                 <Image src="/images/childrenclasses.jpg" alt="Children Classes" width={300} height={200}
                                        className="w-full max-w-xs" />
-                                <h2 className="class-name text-2xl font-bold mt-4">Children Classes</h2>
+                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full text-center">
+                                    <h2 className="text-2xl font-bold text-white drop-shadow-md">Children Classes</h2>
+                                </div>
                             </a>
                         </Link>
                     </div>
                     <div className="flex flex-col items-center">
                         <Link href="/wedding-dance" legacyBehavior>
-                            <a className="image-button flex flex-col items-center no-underline">
+                            <a className="image-button flex flex-col items-center no-underline relative">
                                 <Image src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" width={300}
                                        height={200} className="w-full max-w-xs" />
-                                <h2 className="class-name text-2xl font-bold mt-4">First Wedding Dance</h2>
+                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full text-center">
+                                    <h2 className="text-2xl font-bold text-white drop-shadow-md">First Wedding Dance</h2>
+                                </div>
                             </a>
                         </Link>
                     </div>
