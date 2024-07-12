@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export function Footer() {
     return (
-        <footer className="bg-gray-200 text-black pt-8 pb-12 sm:pt-3 sm:pb-10 text-center mt-8">
+        <footer className="bg-gray-100 text-black pt-8 pb-12 sm:pt-3 sm:pb-10 text-center mt-8">
             <p className="text-sm mb-4">
                 <Link href="/privacy-policy" className="underline">Privacy Policy</Link>
             </p>

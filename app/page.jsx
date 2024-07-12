@@ -1,7 +1,7 @@
 "use client"; // Ensure this is at the top
 
-import Link from 'next/link';
 import Image from 'next/image';
+import ImageButton from '/components/ImageButton';
 
 export default function Page() {
     return (
@@ -31,46 +31,16 @@ export default function Page() {
                         We have our own private dance studio in Edinburgh which is dedicated to our Scottish Wedding industry award-winning company Learn 2 Wedding Dance.
                     </p>
                     <p className="mt-4 text-lg sm:text-xl text-gray-600">
-                        We now have a brand new timetable for our children's dance classes every Saturday morning featuring the magical TwinkleStars Ballet Club and our very popular BallroomJuniors Club. Our classes are open to all children throughout the year and everyone is welcome.
+                        We now have a brand new timetable for our children`&#39;s dance classes every Saturday morning featuring the magical TwinkleStars Ballet Club and our very popular BallroomJuniors Club. Our classes are open to all children throughout the year and everyone is welcome.
                     </p>
                 </div>
             </section>
             <div className="py-8"></div>
             <section className="flex flex-col gap-8 sm:gap-16 px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-                    <div className="flex flex-col items-center">
-                        <Link href="/adult-classes" legacyBehavior>
-                            <a className="image-button flex flex-col items-center no-underline relative">
-                                <Image src="/images/adultClasses.jpg" alt="Adult Classes" width={300} height={200}
-                                       className="w-full max-w-xs" />
-                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full text-center">
-                                    <h2 className="text-2xl font-bold text-white drop-shadow-md">Adult Classes</h2>
-                                </div>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <Link href="/children-classes" legacyBehavior>
-                            <a className="image-button flex flex-col items-center no-underline relative">
-                                <Image src="/images/childrenclasses.jpg" alt="Children Classes" width={300} height={200}
-                                       className="w-full max-w-xs" />
-                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full text-center">
-                                    <h2 className="text-2xl font-bold text-white drop-shadow-md">Children Classes</h2>
-                                </div>
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="flex flex-col items-center">
-                        <Link href="/wedding-dance" legacyBehavior>
-                            <a className="image-button flex flex-col items-center no-underline relative">
-                                <Image src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" width={300}
-                                       height={200} className="w-full max-w-xs" />
-                                <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full text-center">
-                                    <h2 className="text-2xl font-bold text-white drop-shadow-md">First Wedding Dance</h2>
-                                </div>
-                            </a>
-                        </Link>
-                    </div>
+                    <ImageButton href="/adult-classes" src="/images/adultClasses.jpg" alt="Adult Classes" title="Adult Classes" />
+                    <ImageButton href="/children-classes" src="/images/childrenclasses.jpg" alt="Children Classes" title="Children Classes" />
+                    <ImageButton href="/wedding-dance" src="/images/WeddingClasses_compressed.jpg" alt="Wedding Dance" title="First Wedding Dance" />
                 </div>
             </section>
         </main>
