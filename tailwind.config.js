@@ -1,3 +1,4 @@
+// tailwind.config.js
 const colors = require('tailwindcss/colors');
 const defaultTheme = require('tailwindcss/defaultTheme');
 
@@ -12,8 +13,9 @@ module.exports = {
                 neutral: colors.neutral
             },
             fontFamily: {
-                display: ['Montserrat', ...defaultTheme.fontFamily.sans]
-            }
+                display: ['Montserrat', ...defaultTheme.fontFamily.sans],
+                playwrite: ['Playwrite BE VLG', ...defaultTheme.fontFamily.sans]
+            },
         }
     },
     daisyui: {

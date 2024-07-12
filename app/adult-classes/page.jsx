@@ -16,7 +16,8 @@ export default function Page() {
     return (
         <div>
             <div className="w-full bg-white px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
-                <h1 className="text-3xl sm:text-4xl font-bold text-left px-4">Adult Classes</h1>
+                <h1 className="text-3xl sm:text-4xl font-bold text-primary font-display">ADULT CLASSES</h1>
+                <p className="font-playwrite text-2xl">This is a paragraph with the Playwrite BE VLG font.</p>
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
                         <div className="md:col-span-3 flex flex-col justify-center px-4">
@@ -52,7 +53,7 @@ export default function Page() {
             <div className="w-full bg-gray-100 py-8">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <div>
+                    <div>
                             <h3 className="text-xl sm:text-2xl font-semibold mb-2">Term Dates</h3>
                             <ul className="list-disc list-inside mb-4">
                                 {termDates.map(({ term, dates }) => (

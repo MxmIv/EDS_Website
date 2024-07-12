@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
             <link rel="icon" href="/favicon.ico" sizes="any" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap" rel="stylesheet" />
         </head>
         <body className="antialiased text-black bg-white">
         <div className="flex flex-col min-h-screen">
