@@ -19,7 +19,7 @@ export function Header() {
     const navItems = [
         { href: '/adult-classes', linkText: 'Adult Classes' },
         { href: '/children-classes', linkText: 'Children\'s Classes' },
-        { href: '/wedding-dance-classes', linkText: 'Wedding Dance Classes' },
+        { href: '/wedding-dance', linkText: 'Wedding Dance Classes' },
         { href: '/contact-us', linkText: 'Contact Us' } // Added Contact Us link
     ];
 
