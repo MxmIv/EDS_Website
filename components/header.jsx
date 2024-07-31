@@ -1,16 +1,9 @@
-"use client"; // Ensure this is at the top
+"use client"; // This will ensure the component is treated as a client component
 
-import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import edinburghDanceSchoolLogo from 'public/edinburghDanceSchool.svg';
-
-const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'Adult Classes', href: '/adult-classes' },
-    { linkText: 'Children Classes', href: '/children-classes' },
-    { linkText: 'Wedding Dance', href: '/wedding-dance' }
-];
+import Image from 'next/image';
+import { useState } from 'react';
+import edinburghDanceSchoolLogo from 'public/edinburghDanceSchool.svg'; // Ensure the correct path to your logo image
 
 export function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,10 +13,15 @@ export function Header() {
     };
 
     const handleMenuItemClick = () => {
-        if (menuOpen) {
-            setMenuOpen(false);
-        }
+        setMenuOpen(false);
     };
+
+    const navItems = [
+        { href: '/adult-classes', linkText: 'Adult Classes' },
+        { href: '/children-classes', linkText: 'Children\'s Classes' },
+        { href: '/wedding-dance-classes', linkText: 'Wedding Dance Classes' },
+        { href: '/contact-us', linkText: 'Contact Us' } // Added Contact Us link
+    ];
 
     return (
         <nav className="relative flex flex-wrap items-center justify-between gap-4 px-4 sm:px-4 lg:px-6 pt-4 pb-4 sm:pt-8 md:pb-4 bg-white z-10">
@@ -64,5 +62,3 @@ export function Header() {
         </nav>
     );
 }
-
-export default Header;
