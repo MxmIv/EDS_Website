@@ -27,7 +27,7 @@ export default function Page() {
                         <div className="mb-6">
                             <h3 className="text-xl sm:text-2xl font-semibold mb-2">Contact us about:</h3>
                             <ul className="list-disc list-inside mb-4">
-                                <li>Children's Classes</li>
+                                <li>Children&#39;s Classes</li>
                                 <li>Adult Classes</li>
                                 <li>Private One-on-One Tuition</li>
                                 <li>Any other dance-related inquiries</li>
