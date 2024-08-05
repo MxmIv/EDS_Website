@@ -4,11 +4,11 @@ export const metadata = {
 
 export default function Page() {
     return (
-        <div className="w-full bg-white px-4 sm:px-6 lg:px-8 py-4 sm:py-6 lg:py-8">
-            <h1 className="text-3xl sm:text-4xl font-bold text-left px-4">Wedding Dance Classes</h1>
-            <div className="max-w-7xl mx-auto">
+        <div className="w-full bg-white py-4 sm:py-6 lg:py-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-8">
+                <h1 className="text-3xl sm:text-4xl font-bold text-left mb-6">Wedding Dance Classes</h1>
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-                    <div className="md:col-span-3 flex flex-col justify-center px-4">
+                    <div className="md:col-span-3 flex flex-col justify-center">
                         <h2 className="text-2xl sm:text-3xl font-semibold mb-2">Prepare for Your First Dance</h2>
                         <p className="mb-4">
                             At Learn 2 Wedding Dance, we provide private one-to-one and group dance lessons to help couples prepare for their First Wedding Dance. Whether you are a complete beginner or have some dance experience, our professional instructors will build your confidence step by step and ensure you look and feel great on the dance floor.
@@ -25,7 +25,7 @@ export default function Page() {
                             <li>5 hour Wedding Dance Package: £250</li>
                         </ul>
                         <p className="mb-4">
-                            For more details or to book your lessons, contact Felicity at <a href="tel:+447703483809">+44 77034 83809</a> or via email at <a href="mailto:felicity@learn2weddingdance.co.uk">felicity@learn2weddingdance.co.uk</a>.
+                            For more details or to book your lessons, contact Felicity at <a href="tel:+447703483809" className="text-blue-500 underline">+44 77034 83809</a> or via email at <a href="mailto:felicity@learn2weddingdance.co.uk" className="text-blue-500 underline">felicity@learn2weddingdance.co.uk</a>.
                         </p>
                     </div>
                     <div className="md:col-span-2 flex items-center justify-center">
@@ -50,8 +50,8 @@ export default function Page() {
                         </div>
                         <div>
                             <h3 className="text-xl sm:text-2xl font-semibold mb-2">Contact Information</h3>
-                            <p className="mb-2">Phone: <a href="tel:+447703483809">+44 77034 83809</a></p>
-                            <p className="mb-2">Email: <a href="mailto:felicity@learn2weddingdance.co.uk">felicity@learn2weddingdance.co.uk</a></p>
+                            <p className="mb-2">Phone: <a href="tel:+447703483809" className="text-blue-500 underline">+44 77034 83809</a></p>
+                            <p className="mb-2">Email: <a href="mailto:felicity@learn2weddingdance.co.uk" className="text-blue-500 underline">felicity@learn2weddingdance.co.uk</a></p>
                         </div>
                     </div>
                 </div>
